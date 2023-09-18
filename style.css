@@ -1,0 +1,46 @@
+        * {
+            font-size: 10px;
+            /* rem size is relative to this number */
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            /* these 2 remove default margin and padding */
+        }
+
+        .card {
+            width: 48%;
+            /* vw = percent of the screen */
+            background-color: rgba(95, 25, 25, 0.75);
+            height: 48%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-evenly;
+            margin-top:1.5rem 0rem
+        }
+
+        .card-img {
+            width: 100%;
+            margin-top: 2rem;
+        }
+
+        .card-title {
+            font-size: 2.2rem;
+            /* use typescale.com */
+        }
+
+        .card-price {
+            font-size: 1.2rem;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            width: 80vw;
+            background-color: burlywood;
+            align-items: center;
+            margin:1rem auto;
+            justify-content: space-evenly;
+        }
+
+        /* unsplash,pixaday,pexels, huemint, material theme, typescale, vanta, pocoloco */
